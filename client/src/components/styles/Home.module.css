@@ -1,0 +1,81 @@
+.contenedor{
+    background-image: url(../../img/spaghetti-2931846_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.divUl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 50px;
+}
+
+.contenedorUl{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.lista{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    list-style: none;
+}
+
+.li select{
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    list-style: none;
+    margin: 10px;
+    padding: 0 40px;
+    height: 42px;
+    font-size: 1em;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.25s ease;
+    filter: drop-shadow(30px 10px 10px rgb(116, 116, 116));
+}
+
+.li select:hover{
+    background-color: #808080;
+    color:rgb(255, 255, 255)
+}
+
+.li select option:hover{
+    background-color: #808080;
+} 
+
+.refresh button{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 15px;
+    filter: drop-shadow(30px 10px 10px rgb(116, 116, 116));
+    transition: all 0.25s ease;
+}
+
+.refresh button:hover{
+    transform: scale(1.05);
+    transition: all 0.25s ease;
+    background: #808080;
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,50 @@
+.paginado{
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    padding: 0;
+    margin: 20px;
+    font-size: medium;
+}
+
+.container li{
+    display: inline;
+}
+
+.container li button:hover{
+    transform: scale(1.01);
+    transition: all ease 200ms;
+    background: #808080;
+    color: rgb(255, 255, 255);
+}
+
+.container li button:active{
+    background-color: #eee;
+    box-shadow: 0 1px #666;
+    transform: translateY(1px);
+}
+
+.container li button:focus{
+    background-color: #364361;
+    color: #eee;
+}
+
+.container li button{
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    list-style: none;
+    margin: 7px;
+    padding: 0 25px;
+    height: 35px;
+    font-size: 1em;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.25s ease;
+    filter: drop-shadow(30px 10px 10px rgb(116, 116, 116));
+}

@@ -1,0 +1,97 @@
+.contenedor{
+    height: 100%;
+    background-image: url(../../img/spaghetti-2931846_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorNav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin: 40px;
+    width: 50%;
+}
+
+.btn{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 15px;
+    filter: drop-shadow(30px 10px 10px rgb(116, 116, 116));
+    transition: all 0.25s ease;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+    transition: all 0.25s ease;
+    background: #808080;
+    color: rgb(255, 255, 255);
+}
+
+.contenedorCard{
+    height: 100%;
+    color: #808080;
+    display: flex;
+    background-color: rgb(63, 63, 63);
+    padding: 4%;
+    border-radius: 65px;
+    justify-content: center;
+    grid-row-gap: 50px;
+    grid-row-gap: 50px;
+    row-gap: 50px;
+    margin: 40px 290px;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+    filter: drop-shadow(30px 10px 10px rgb(116, 116, 116));
+}
+
+.title{
+    font-size: 35px;
+    padding: 0%;
+    margin: 0 0 10px;
+    color: #808080;
+}
+
+.img{
+    height: auto;
+    margin: 0 22px;
+    border-radius: 15px;
+    filter: drop-shadow(6px 6px 3px rgba(0, 0, 0, 0.2));
+    transition: all ease 200ms;
+    max-width: 500px;
+}
+
+.diet{
+    margin: 0 20px;
+    color: rgb(94, 94, 94);
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info{
+    display: flex;
+    padding: 4%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

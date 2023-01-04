@@ -1,0 +1,56 @@
+body {
+    font-family: "Roboto", sans-serif;
+  }
+
+.background{
+    background-image: url(../../img/fondofood.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height:100vh;
+}
+
+.titleContainer{
+    display: flex;
+    border: 2px solid #E5E7E9;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 380px;
+    margin: 0 auto;
+    max-height: 125px;
+    border-radius: 32px;
+}
+
+.title {
+    font-size: 4rem;
+    color:#E5E7E9;
+  }
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #E5E7E9;
+    color: #1B2631;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 2rem;
+    transition: 0.4s;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
+
+.btn:hover {
+    background-color: #1B2631;
+    color: #E5E7E9;
+  }
